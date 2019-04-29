@@ -6,7 +6,11 @@ spring:
     encoding:
       enabled: true
       charset: UTF-8
-
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: ENC(i87lLC0ceVq1vK91R+Y6M9fAJQdU7jNp5MW+ndLgacRvPDj42HR8mUE33uFwpWqjOSuDX0d1dd2NilrnW7yJbZmoxuJ3HmOmjwY5+Vhu+e3We4QPDVCr/s/RHsQgYOiWrSQ92Mjammnody/jWI5aaw==)
+    username: admin
+    password: bigo@123
 server:
   port: 9090
 
@@ -14,3 +18,4 @@ myConfig:
   myObject:
     myName: zhangsan
     myAge: 20
+

@@ -35,7 +35,7 @@ public class MyController {
     public Object test() {
         Person person = new Person();
         person.setId(3);
-        person.setName("papap");
+        person.setName("Bigo Inc");
         person.setBirthday(new Date());
 
         System.out.println(myAge);
